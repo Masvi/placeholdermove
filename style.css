@@ -1,0 +1,37 @@
+.formlabel {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+}
+
+.forminput {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 100%;
+    display: block;
+    transition: all 0.3s;
+}
+
+.forminput:placeholder-shown + .formlabel {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rm);
+}
+
+.formgroup {
+    width: 200px;
+    height: 30px;
+}
+
+.body {
+    background-color: #ccc;
+}
